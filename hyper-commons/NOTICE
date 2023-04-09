@@ -1,0 +1,34 @@
+************************************************************************
+
+hyper-commons
+Copyright 2023 ideal-state
+(https://github.com/ideal-state/hyper-framework)
+
+************************************************************************
+
+Subcomponents:
+
+This project contains subcomponents with separate copyright
+notices and license terms.
+
+Your use of the source code for the these
+subcomponents is subject to the terms and conditions of the following
+licenses.
+
+See subcomponent's project link for details.
+The text of each license is also included at ./licenses/LICENSE-(subcomponent's project).
+
+========================================================================
+BSD licenses
+
+The following components are provided under the BSD license.
+
+   proto files from ow2: https://gitlab.ow2.org/asm/asm (BSD 3-Clause)
+========================================================================
+MIT licenses
+
+The following components are provided under the MIT License.
+
+   proto files from qos-ch: https://github.com/qos-ch/slf4j (MIT)
+
+************************************************************************

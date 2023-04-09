@@ -1,0 +1,29 @@
+<idea-plugin require-restart="true">
+    <id>team.idealstate.hyper.hyperideaplugin</id>
+    <name>Hyper</name>
+
+    <description>Provides support for : navigation, inspections and productivity enhancements</description>
+
+    <description>
+        <![CDATA[
+        <p>Adds navigation, auto-completion and inspections specific to the Hyper Framework.</p>
+        <p>Features:</p>
+        <ul>
+            <li>Coding assistance: code completion, inspections, line markers in Java code.</li>
+            <li>Hyper IE language support.</li>
+        </ul>
+        ]]>
+    </description>
+
+    <vendor>ideal-state</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+
+    <projectListeners>
+        <listener
+                class="team.idealstate.hyper.hyperideaplugin.PluginStarter"
+                topic="com.intellij.openapi.project.ProjectManagerListener"
+        />
+    </projectListeners>
+</idea-plugin>
